@@ -5,3 +5,8 @@ function increment() {
     count += 1
     countEl.textContent = count
 }
+
+function reset() {
+    count = 0
+    countEl.textContent = count
+}
