@@ -25,3 +25,12 @@ function save(){
         index += 1
     }
 }
+
+function clearTable() {
+    index -= 1
+    while(index >= 1){
+        tableEl.deleteRow(index)
+        index -= 1
+    }
+    index = 1
+}

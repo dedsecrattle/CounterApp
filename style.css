@@ -46,6 +46,10 @@ table {
 #hist-el{
     margin: auto;
 }
+
+#clear-btn{
+    width: 200px;
+}
   
 th, td {
     border: 1px solid #ddd;
