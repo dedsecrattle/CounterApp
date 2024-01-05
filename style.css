@@ -45,6 +45,7 @@ table {
 
 #hist-el{
     margin: auto;
+
 }
 
 #clear-btn{
@@ -57,9 +58,20 @@ th, td {
     text-align: center;
     font-weight: bold;
 }
+
+td{
+    color: white;
+}
   
 th{
     color: black;
     background-color:white;
     font-weight: bold;
+}
+
+#save-cmnt{
+    width: 400px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
 }
